@@ -38,8 +38,8 @@ public class Palette extends Application {
         VBox vbox = new VBox();
 
         this.root = new BorderPane();
-        root.setPrefWidth(400);
-        root.setPrefHeight(200);
+        root.setPrefSize(400,200);
+
 
         HBox centre = new HBox();
         this.label = new Label();
@@ -86,8 +86,8 @@ public class Palette extends Application {
 
         // Ajout de la scene à la fenêtre et changement de ses paramètres (dimensions et titre)
         primaryStage.setScene( scene );
-        primaryStage.setWidth(800);
-        primaryStage.setHeight( 400 );
+        primaryStage.setWidth(400);
+        primaryStage.setHeight( 200 );
         ;
 
         // Affichage de la fenêtre

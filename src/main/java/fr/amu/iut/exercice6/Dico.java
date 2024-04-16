@@ -18,6 +18,7 @@ public class Dico {
                 while ((mot = lecteur.readLine()) != null) {
                     listeMots.add(mot);
                 }
+
             }
         } catch (IOException e) {
             System.err.println("Erreur de lecture du fichier : " + e.getMessage());
